@@ -18,9 +18,6 @@ searchInput.addEventListener("keyup", (event) => {
     );
   });
   renderUsersCharacter(filterCharacter);
-  // if (searchTarget === 0 && !searchTarget) {
-  //   fetchCharacterUser();
-  // }
   if (searchTarget.length === 0) {
     renderUsersCharacter(allCharacters.slice(0, 6));
   }
